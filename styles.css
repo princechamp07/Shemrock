@@ -1,0 +1,277 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-left: 15px;
+}
+
+li {
+    padding-left: 14px;
+}
+
+a {
+    text-decoration: none;
+    background-color: #2B59FF;
+    padding: 12px;
+    margin-right: 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.left {
+    font-weight: bold;
+}
+
+.nav {
+    margin: 20px 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.Hero-Left {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.Hero-Left h1 {
+    padding: 20px 0px;
+    font-size: 50px;
+}
+
+.Hero-Left span {
+    color: rgb(105, 102, 102);
+}
+
+.Hero-Left a {
+    width: 80px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    padding: 0 150px;
+    margin: 30px 40px;
+}
+
+.section {
+    background-color: #0F172A;
+    display: flex;
+    padding: 10px;
+    width: 100%;
+}
+
+.section h1 {
+    color: white;
+}
+
+.section span {
+    color: gray;
+}
+
+.section-right {
+    padding: 0px 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Testimonial {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+.Cards {
+    width: 1000%;
+    padding: 40px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.Cards img {
+    width: 60px;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+.username {
+    padding: 20px;
+    font-weight: bold;
+}
+
+.parent {
+    color: rgb(78, 76, 76);
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #0F172A;
+    color: white;
+    padding: 15px;
+}
+
+form h1 {
+    font-size: 50px;
+}
+
+form label {
+    padding: 10px;
+    font-size: 25px;
+}
+
+form input {
+    margin: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    /* Styles for tablets */
+    .container {
+        flex-direction: column;
+        width: 100%;
+        
+    }
+
+    .Hero-Left{
+        text-align: center;
+        align-items: center;
+    }
+    
+    .Hero-Right{
+        display: flex;
+        justify-content: center;
+        margin-right: 50px;
+       
+    }
+
+  .Cards{
+    width: 100%;
+    padding: 10px 0px;
+    margin: 10px;
+  }
+  
+  .flex{
+    flex-direction: column;
+    width: 100%;
+   margin-left: -150px;
+  }
+ 
+  #form{
+    width: 100% ;
+    padding: 100px;
+    
+
+  }
+
+  .hero{
+   display: flex;
+   margin-right:-50px ;
+  }
+
+  .section{
+    padding: 100px;
+
+    .container{
+        margin-left: -50px;
+        div{
+            margin-left: -80px;
+          
+        }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+    /* Styles for smartphones */
+    li{
+        display: none;
+    }
+    .container {
+        flex-direction: column;
+        width: 100%;
+        
+    }
+
+    .Hero-Left{
+        text-align: center;
+        align-items: center;
+    }
+    
+    .Hero-Right{
+        display: flex;
+        justify-content: center;
+        margin-right: 50px;
+       
+    }
+
+  .Cards{
+    width: 100%;
+    padding: 10px 0px;
+    margin: 10px;
+  }
+  
+  .flex{
+    flex-direction: column;
+    width: 100%;
+  
+  }
+ 
+  #form{
+    width: 100% ;
+    padding: 100px;
+    
+
+  }
+
+  .hero{
+   display: flex;
+   margin-right:-50px ;
+  }
+
+  .section{
+    padding: 100px;
+
+    .container{
+        margin-left: -50px;
+        div{
+            margin-left: -80px;
+          
+        }
+    }
+  }
+
+}
